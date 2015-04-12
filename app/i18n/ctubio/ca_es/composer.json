@@ -1,0 +1,22 @@
+{
+    "name": "ctubio/magento-ca_es",
+    "description": "Catalan (Catalonia) language",
+    "version": "0.74.0-beta4",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "magento/framework": "0.74.0-beta4",
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-language",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "ctubio/ca_es"
+            ]
+        ]
+    }
+}
